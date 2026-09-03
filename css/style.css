@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+p, input, button {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+    text-align: center;
+    padding: 35px 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+header h1 {
+    margin: 0;
+    color: #222222;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin: 5px 0 0;
+    color: #555555;
+    font-size: 18px;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 38px;
+    letter-spacing: 3px;
+}
+
+.logo img {
+    width: 220px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    background-color: #222222;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #f2b705;
+    color: #222222;
+}
+
+main {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+main h2 {
+    margin-bottom: 20px;
+}
+
+main p {
+    color: #222222;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 8px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.redes-sociais a {
+    display: inline-block;
+}
+
+.redes-sociais img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    transition: 0.3s;
+}
+
+.redes-sociais img:hover {
+    transform: scale(1.15);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #eeeeee;
+}
+
+td img {
+    width: 100px;
+    height: 80px;
+    object-fit: contain;
+}
+
+tbody,
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+form input:focus,
+form select:focus {
+    border-color: #f2b705;
+    outline: none;
+    box-shadow: 0 0 5px rgba(242, 183, 5, 0.5);
+}
+
+form .actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+form button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+form button[type="submit"] {
+    background-color: #f2b705;
+    color: #222222;
+}
+
+form button[type="submit"]:hover {
+    background-color: #222222;
+    color: #fff;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+form button[type="reset"] {
+    background-color: #ddd;
+    color: #222222;
+}
+
+form button[type="reset"]:hover {
+    background-color: #bbb;
+}
